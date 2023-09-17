@@ -1,3 +1,34 @@
+.menu-list {
+    display: none;
+}
+.contacts-list {
+    display: none;
+}
+.header-section {
+    padding-top: 17.5px;
+    padding-bottom: 17.5px;
+}
+.header-logo {
+    color: var(--IRIS);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+.header-accent {
+    color: var(--NAVY-BLUE);
+}
+.open-mobile-menu-btn {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    line-height: 0;
+}
+.open-mobile-menu-icon {
+    stroke: #2F2F37;
+}
 /* .header-section {
     border-bottom: 1px solid var(--CORNFLOWER);
     padding: 0 15px;
