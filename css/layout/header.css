@@ -1,0 +1,106 @@
+/* .header-section {
+    border-bottom: 1px solid var(--CORNFLOWER);
+    padding: 0 15px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.header-section .container {
+    display: flex;
+    align-items: center;
+}
+
+.menu-nav {
+    display: flex;
+    align-items: center
+}
+
+.menu-list {
+    display: flex;
+    column-gap: 40px;
+}
+
+
+.header-logo {
+    color: var(--IRIS);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 76px;
+}
+
+.header-accent {
+    color: var(--NAVY-BLUE);
+}
+
+.header-link {
+    display: block;
+    color: var(--NAVY-BLUE);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+    padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-link-studio {
+    color: var(--OCEAN);
+    display: block;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-link-studio::after {
+    display: block;
+    width: 48px;
+    height: 4px;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background-color: var(--OCEAN);
+    border-radius: 2px;
+}
+
+.header-link:hover {
+    color: var(--OCEAN);
+}
+
+.header-link:focus {
+    color: var(--OCEAN);
+}
+
+.contacts {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contacts-link {
+    display: block;
+    color: var(--SLATE);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts-link:hover {
+    color: var(--OCEAN);
+}
+
+.contacts-link:focus {
+    color: var(--OCEAN);
+} */
