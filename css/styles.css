@@ -363,7 +363,7 @@ background-color: var(--OCEAN);
 } */
 
 /* BACKDROP */
-.backdrop {
+/* .backdrop {
     position: fixed;
     z-index: 999999999;
     top: 0;
@@ -381,12 +381,12 @@ background-color: var(--OCEAN);
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-}
+} */
 
 /* BACKDROP */
 
 /* MODAL WINDOW */
-.modal {
+/* .modal {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -561,5 +561,5 @@ input:checked + label > span {
 }   
 .send-button:hover {
     background-color: var(--OCEAN);
-}
+} */
 /* MODAL WINDOW */

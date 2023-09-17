@@ -1,3 +1,4 @@
+/* Mobile */
 .menu-list {
     display: none;
 }
@@ -8,6 +9,11 @@
     padding-top: 17.5px;
     padding-bottom: 17.5px;
 }
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .header-logo {
     color: var(--IRIS);
     font-family: Raleway, sans-serif;
@@ -17,6 +23,7 @@
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
+}
 .header-accent {
     color: var(--NAVY-BLUE);
 }
@@ -25,19 +32,77 @@
     background-color: transparent;
     padding: 0;
     line-height: 0;
+    fill: #2F2F37;
 }
-.open-mobile-menu-icon {
-    stroke: #2F2F37;
+.open-mobile-menu-btn:hover,
+.open-mobile-menu-btn:focus {
+    fill: var(--OCEAN);
 }
+.mobile-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background-color: var(--WHITE);
+    transform: translate(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-menu.is-open {
+    transform: translate(0%);
+}
+.mobile-menu-close-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: var(--CORNFLOWER);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-menu-close-btn:hover,
+.mobile-menu-close-btn:focus {
+    background-color: var(--OCEAN);
+    fill: var(--WHITE);
+    border: none;
+}
+.mobile-menu-close-icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* Mobile */
+
+/* Tablet */
+
+
+/* Tablet */
+
+/* Desktop */
+
+/* Desktop */
+
+
 /* .header-section {
     border-bottom: 1px solid var(--CORNFLOWER);
     padding: 0 15px;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.header-section .container {
+.header-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    
 }
 
 .menu-nav {
@@ -60,7 +125,6 @@
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
-    margin-right: 76px;
 }
 
 .header-accent {
