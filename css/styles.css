@@ -1,43 +1,6 @@
 /* Main */
 
 
-/* Our benefits */
-/* 
-.icon-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 264px;
-    height: 112px;
-    flex-shrink: 0;
-    border-radius: 4px;
-    border: 1px solid var(--LIGHT-SLATE);
-    background: var(--CLOUD);
-    margin-bottom: 8px;
-}
-
-.benefit-title {
-    color: var(--NAVY-BLUE);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.4px;
-    margin-bottom: 8px;
-}
-.benefit-list {
-    display: flex;
-    column-gap: 24px;
-
-}
-.benefit-item {
-    flex-basis: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
-}
-.benefit-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-} */
 
 /* Our team */
 /* .team-section {
