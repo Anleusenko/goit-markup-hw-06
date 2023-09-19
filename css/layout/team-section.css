@@ -1,0 +1,102 @@
+/* Mobile */
+.team-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background-color: var(--CLOUD);
+}
+.team-title {
+    color: var(--NAVY-BLUE);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+.team-list {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 72px;
+}
+.team-item {
+    background-color: var(--WHITE);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.team-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.person-title {
+    color: var(--NAVY-BLUE);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.person-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.social-list-team {
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.social-list-team-item {
+    width: 40px;
+    height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-team-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--IRIS);
+    fill: var(--CLOUD);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-team-link:hover,
+.social-team-link:focus {
+    background-color: var(--OCEAN);
+}
+
+/* ====== Mobile ====== */
+
+
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+    .team-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 64px;
+        justify-content: center;
+    }
+}
+/* ====== Tablet ====== */
+
+/* Desktop */
+
+@media screen and (min-width: 1158px) {
+    .team-item {
+     width: calc((100% - 72px) / 4);   
+    }
+}
+/* ====== Desktop ====== */

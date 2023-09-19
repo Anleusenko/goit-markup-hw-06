@@ -1,5 +1,5 @@
 /* Mobile */
-@media screen and (max-width:1439px) {
+@media screen and (max-width:1157px) {
     .icon-container {
         display: none;
     }
@@ -45,9 +45,10 @@
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
+    justify-content: center;
 }
 .benefit-item {
-    flex-basis: calc((100% - 24px) / 2);
+    width: calc((100% - 24px) / 2);
     border-radius: 0px 0px 4px 4px;
 }
 .benefit-title {
@@ -59,7 +60,7 @@
 
 /* Desktop */
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
     .benefits-section {
         padding-top: 120px;
         padding-bottom: 120px;
@@ -82,14 +83,11 @@
     }
     .benefit-item {
         flex-basis: calc((100% - 72px) / 4);
-        border-radius: 0px 0px 4px 4px;
     }
     .benefit-title {
-        color: var(--NAVY-BLUE);
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
-        margin-bottom: 8px;
     }
 }
 /* ====== Desktop ====== */

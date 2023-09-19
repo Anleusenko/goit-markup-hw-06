@@ -74,7 +74,7 @@
 /* ====== Tablet ====== */
 
 /* Desktop */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
     .hero-section {
         padding-top: 188px;
         padding-bottom: 188px;

@@ -248,7 +248,7 @@
 /* ====== Tablet ====== */
 
 /* Desktop */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
     .header-section {
         padding-top: 24px;
         padding-bottom: 24px;
