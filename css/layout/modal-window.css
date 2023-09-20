@@ -194,3 +194,14 @@ input:checked + label > span {
 .send-button:hover {
     background-color: var(--OCEAN);
 } 
+
+
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .modal {
+        width: 408px;
+        min-height: 584px;
+        padding: 72px 24px 24px 24px;
+    }
+}
