@@ -165,6 +165,9 @@
     .footer-text {
         width: 264px;
     }
+    .social-footer-container {
+        margin-top: 0;
+    }
     .main-social-text {
         display: block;
         text-align: left;
