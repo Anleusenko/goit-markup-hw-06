@@ -1,4 +1,9 @@
 /* Mobile */
+@media screen and (max-width: 767px) {
+    .social-footer-container {
+        margin-top: 72px;
+    }
+}
 .footer-section {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -39,7 +44,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 72px;
 }
 .main-social-text {
     font-weight: 500;
