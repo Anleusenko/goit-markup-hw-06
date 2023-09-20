@@ -1,7 +1,12 @@
 /* Mobile */
 @media screen and (max-width: 767px) {
-    .social-footer-container {
-        margin-top: 72px;
+    .logo-footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section .container {
+        gap: 72px;
     }
 }
 .footer-section {
@@ -13,11 +18,7 @@
     display: flex;
     flex-direction: column;
 }
-.logo-footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 .footer-logo {
     color: var(--IRIS);
     font-family: Raleway, sans-serif;
@@ -40,11 +41,7 @@
     letter-spacing: 0.02em;
     width: 288px;
 }
-.social-footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 .main-social-text {
     font-weight: 500;
     font-size: 16px;
@@ -81,9 +78,10 @@
 .main-social-icon {
     fill: var(--CLOUD);
 }
-
+.social-footer-container{
+    text-align: center;
+}
 .footer-subscribe-container {
-    display: block;
     text-align: center;
 }
 .subscribe-text {
@@ -111,6 +109,7 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     border: 1px solid var(--WHITE);
+    color: var(--WHITE);
 
 }
 
@@ -155,34 +154,21 @@
        width: 584px; 
     }
 }
-@media screen and (max-width: 1157px) {
-    .footer-subscribe-container {
-        margin-top: 72px;
-    }
-}
+
 @media screen and (min-width: 768px) {
     .footer-section .container {
         flex-direction: row;
         flex-wrap: wrap;
-    }
-    .logo-footer-container {
-        display: block;
-        margin-right: 24px;
+        column-gap: 24px;
+        row-gap: 72px;
     }
     .footer-text {
         width: 264px;
     }
-    .social-footer-container {
-        align-items: flex-start;
-        margin-top: 0;
-    }
     .main-social-text {
-        display: block;
         text-align: left;
-        margin-top: 0;
     }
     .subscribe-text {
-        display: block;
         text-align: left;
     }
     .subscribe-form {
@@ -215,7 +201,7 @@
         margin-right: 80px;
     }
     .subscribe-text {
-    margin-top: 0;
+        margin-top: 0;
     }
 }
 /* ====== Desktop ====== */

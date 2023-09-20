@@ -4,7 +4,7 @@
     padding-bottom: 96px;
     background-color: var(--CLOUD);
 }
-.team-container {
+.team-section .container {
     text-align: center;
 }
 .team-title {
