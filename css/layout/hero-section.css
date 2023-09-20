@@ -63,7 +63,7 @@
         background-image: linear-gradient(
          rgba(46, 47, 66, 0.70),
          rgba(46, 47, 66, 0.70)),
-        url('/images/hero/tablet-hero-bg.jpg');
+        url('//images/hero/tablet-hero-bg.jpg');
     }
     .hero-title {
         font-size: 56px;
@@ -83,6 +83,9 @@
         rgba(46, 47, 66, 0.70)),
         url('/images/hero/desktop-hero-bg.jpg');
         max-width: 1440px;
+    }
+    .hero-title {
+        margin-bottom: 48px;
     }
 }
 
