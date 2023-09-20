@@ -97,8 +97,13 @@
 /* Desktop */
 
 @media screen and (min-width: 1158px) {
+    .team-section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
     .team-item {
      width: calc((100% - 72px) / 4);   
     }
+
 }
 /* ====== Desktop ====== */

@@ -3,8 +3,12 @@
     .icon-container {
         display: none;
     }
+} 
+@media screen and (max-width:767px) {
+    .benefit-text {
+        max-width: 288px;
+    }
 }
-
 .benefits-section {
     padding-top: 96px;
     padding-bottom: 96px;
