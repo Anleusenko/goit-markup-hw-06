@@ -36,8 +36,9 @@
     width: 288px;
 }
 .social-footer-container {
-    display: block;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .main-social-text {
     font-weight: 500;
