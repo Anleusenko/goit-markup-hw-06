@@ -20,9 +20,6 @@
     margin-left: auto;
     margin-right: auto;
 }
-.benefit-item {
-    max-width: 288px;
-}
 .benefit-title {
     color: var(--NAVY-BLUE);
     font-size: 36px;
@@ -36,6 +33,7 @@
 .benefit-text {
     font-size: 16px;
     line-height: 1.5;
+    font-weight: 500;
     letter-spacing: 0.02em;
     text-align: left;
 }
@@ -55,7 +53,6 @@
 }
 .benefit-item {
     width: calc((100% - 24px) / 2);
-    border-radius: 0px 0px 4px 4px;
 }
 .benefit-title {
     text-align: left;
@@ -94,6 +91,9 @@
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
+    }
+    .benefit-text {
+        font-weight: 400;
     }
 }
 /* ====== Desktop ====== */
