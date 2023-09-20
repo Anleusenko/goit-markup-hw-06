@@ -14,7 +14,7 @@
     background-position: center;
 }
 
-@media screen and (min-resolution: 192dpi), 
+@media screen and (min-resolution: 192dpi) and (max-width: 767px), 
     screen and (min-resolution: 2dpx),
     screen and (min-device-pixel-ratio: 2),
     screen and (max-width: 767px) {
@@ -69,25 +69,27 @@
 /* ====== Mobile ====== */
 
 /* Tablet */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
     .hero-section {
         padding-top: 112px;
         padding-bottom: 112px;
-        background-image: linear-gradient(
-        rgba(46, 47, 66, 0.70),
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
         rgba(46, 47, 66, 0.70)),
         url(../../images/hero/tablet-bg.jpg);
     }
-    @media screen and (min-resolution: 192dpi), 
-        screen and (min-resolution: 2dpx),
-        screen and (min-device-pixel-ratio: 2) {
-        .hero-section {
-             background-image: linear-gradient(
-            rgba(46, 47, 66, 0.70),
-            rgba(46, 47, 66, 0.70)),
-            url(../../images/hero/tablet-bg@2x.jpg);
-        }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1157px),
+    screen and (min-resolution: 2dpx),
+    screen and (min-device-pixel-ratio: 2) {
+    .hero-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+        rgba(46, 47, 66, 0.70)),
+        url(../../images/hero/tablet-bg@2x.jpg);
     }
+}
+
+@media screen and (min-width: 768px) {
+
     .hero-title {
         font-size: 56px;
         line-height: 1.07;
@@ -108,19 +110,18 @@
         url(../../images/hero/desktop-bg.jpg);
         max-width: 1440px;
     }
-    @media screen and (min-resolution: 192dpi), 
-        screen and (min-resolution: 2dpx),
-        screen and (min-device-pixel-ratio: 2) {
-        .hero-section {
-            background-image: linear-gradient(
-            rgba(46, 47, 66, 0.70),
-            rgba(46, 47, 66, 0.70)),
-            url(../../images/hero/desktop-bg@2x.jpg);
-        }
-    }
+
     .hero-title {
         margin-bottom: 48px;
     }
 }
-
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
+    screen and (min-resolution: 2dpx),
+    screen and (min-device-pixel-ratio: 2) {
+    .hero-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+        rgba(46, 47, 66, 0.70)),
+        url(../../images/hero/desktop-bg@2x.jpg);
+        }
+}
 /* ====== Desktop ====== */
