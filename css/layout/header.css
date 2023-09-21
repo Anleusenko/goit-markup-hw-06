@@ -9,6 +9,10 @@
     .header-container {
         max-width: 320px;
     }
+    .header-section {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
 }
 
 .header-container {
