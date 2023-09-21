@@ -21,10 +21,12 @@
         flex-direction: column;
         row-gap: 16px;
     }
+    .footer-section {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
 }
 .footer-section {
-    padding-top: 96px;
-    padding-bottom: 96px;
     background-color: var(--NAVY-BLUE);
 }
 .footer-section .container {
@@ -161,12 +163,13 @@
         column-gap: 24px;
         row-gap: 72px;
     }
-}
-
-@media screen and (min-width: 768px) {
     .footer-section .container {
         flex-direction: row;
     }
+}
+
+@media screen and (min-width: 768px) {
+    
     .footer-text {
         width: 264px;
     }
@@ -194,9 +197,6 @@
     .footer-section {
         padding-top: 100px;
         padding-bottom: 100px;
-    }
-    .footer-section .container {
-        flex-wrap: nowrap;
     }
     .logo-footer-container {
         margin-right: 120px;
