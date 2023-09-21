@@ -10,11 +10,6 @@
         max-width: 320px;
     }
 }
-
-.header-section {
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
 .header-container {
     display: flex;
     align-items: center;
@@ -46,6 +41,8 @@
 }
 
 .mobile-menu {
+    display: flex;
+    flex-direction: column;
     padding: 72px 16px 40px 16px;
     position: fixed;
     left: 0;
@@ -159,6 +156,9 @@
 }
 .social-icon {
     fill: var(--CLOUD);
+}
+.contacts-and-social {
+    margin-top: auto;
 }
 /* ====== Mobile ======*/
 
