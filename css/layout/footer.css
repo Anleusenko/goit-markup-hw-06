@@ -31,6 +31,9 @@
     .social-footer-container {
         text-align: center;
     }
+    .main-social-list {
+        justify-content: center;
+    }
 }
 .footer-section {
     background-color: var(--NAVY-BLUE);
@@ -72,7 +75,6 @@
 .main-social-list {
     display: flex;
     gap: 16px;
-    justify-content: center;
 }
 .main-social-item {
     width: 40px;
